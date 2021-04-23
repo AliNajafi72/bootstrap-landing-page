@@ -1,0 +1,120 @@
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.top-navigation {
+    background-color: #303E4E;
+    height: 6rem;
+}
+
+.top-header {
+    background-color: #58B99D;
+}
+
+.portfolio-section {
+    min-height: 50rem;
+    background-color: white;
+}
+
+.about-section {
+    min-height: 30rem;
+    background-color: #58B99D;
+}
+
+.contact-me-section {
+    min-height: 50rem;
+    background-color: white;
+}
+
+.main-footer {
+    background-color: #303E4E;
+    min-height: 30rem;
+}
+
+.copyright-footer {
+    background-color: #1C252E;
+    min-height: 6rem;
+}
+
+.logo {
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav-links, .nav-links:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.person-img {
+    width: 15rem;
+}
+
+.header-title {
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.divider-line {
+    background-color: white;
+    height: 0.3rem;
+    width: 5rem;
+    border-radius: 0.15rem;
+}
+
+.star {
+    fill: white;
+    width: 2rem;
+    margin: 0 1rem 0 1rem;
+}
+
+.header-text {
+    color: white;
+    font-size: 1.5em;
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .navigation-and-header-container {
+        height: 100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .navigation-and-header-container {
+        height: 100%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .navigation-and-header-container {
+        height: 100%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .navigation-and-header-container {
+        height: 95%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .navigation-and-header-container {
+        height: 95%;
+    }
+}
