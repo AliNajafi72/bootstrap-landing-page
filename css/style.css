@@ -83,7 +83,25 @@ html, body {
 .header-text {
     color: white;
     font-size: 1.5em;
+}
 
+.portfolio-section-title {
+    color: #303D4E;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+}
+
+.dark-blue-fill {
+    fill: #303D4E;
+}
+
+.dark-blue-background {
+    background-color: #303D4E;
+}
+
+.rounded-img {
+    border-radius: 1rem !important;
 }
 
 /* Extra small devices (phones, 600px and down) */
