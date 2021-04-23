@@ -23,7 +23,6 @@ html, body {
 }
 
 .about-section {
-    min-height: 30rem;
     background-color: #58B99D;
 }
 
@@ -115,7 +114,7 @@ html, body {
     color: white;
     font-weight: 700;
     font-size: 1.2em;
-    line-height: 1.5em;
+    line-height: 1.7em;
 }
 
 .text-start {
@@ -124,6 +123,23 @@ html, body {
 
 .text-end {
     text-align: start;
+}
+
+.download-icon {
+    fill: white;
+}
+
+.download-button-text {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.download-button {
+    border: solid white 1px;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
 }
 
 /* Extra small devices (phones, 600px and down) */
