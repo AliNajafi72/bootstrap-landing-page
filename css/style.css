@@ -100,8 +100,30 @@ html, body {
     background-color: #303D4E;
 }
 
+.about-title {
+    color: white;
+    letter-spacing: 0.1em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
 .rounded-img {
     border-radius: 1rem !important;
+}
+
+.about-text {
+    color: white;
+    font-weight: 700;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.text-start {
+    text-align: start;
+}
+
+.text-end {
+    text-align: start;
 }
 
 /* Extra small devices (phones, 600px and down) */
