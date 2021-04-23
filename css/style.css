@@ -1,5 +1,6 @@
 * {
     font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
 }
 
 html, body {
@@ -42,9 +43,10 @@ html, body {
 }
 
 .logo {
-    font-weight: bolder;
+    font-weight: 900;
     color: white;
     text-transform: uppercase;
+    font-size: 1.6em;
 }
 
 .nav-links, .nav-links:hover {
@@ -89,12 +91,20 @@ html, body {
     .navigation-and-header-container {
         height: 100%;
     }
+
+    .nav-links {
+        display: none;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .navigation-and-header-container {
         height: 100%;
+    }
+
+    .nav-links {
+        display: none;
     }
 }
 
@@ -103,6 +113,10 @@ html, body {
     .navigation-and-header-container {
         height: 100%;
     }
+
+    .nav-links {
+        display: none;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -110,11 +124,19 @@ html, body {
     .navigation-and-header-container {
         height: 95%;
     }
+
+    .nav-links {
+        display: inline;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .navigation-and-header-container {
         height: 95%;
+    }
+
+    .nav-links {
+        display: inline;
     }
 }
